@@ -940,6 +940,13 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .app_bg {
+    background: url("./assets/bg.png");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+  }
   /* NAVBAR BEGINS */
   .app_navbar {
     padding: 1rem;
@@ -953,6 +960,9 @@ body {
     width: 100px;
   }
   /* NAVBAR ENDS */
+  .about_knife img {
+    height: 400px;
+  }
   /* HEADER BEGINS */
   .header_container {
     display: grid;
@@ -972,6 +982,18 @@ body {
   }
   /* HEADER ENDS */
 
+  .chef_image_container img {
+    width: 200px;
+  }
+
+  .specialmenu-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .specialmenu-img img {
+    width: 200px;
+  }
   /* ABOUT BEGINS */
 
   .about_overlay img {
@@ -995,7 +1017,7 @@ body {
   }
 
   .awards_img img {
-    width: 250px;
+    width: 200px;
   }
 
   /* Laurel Ends */
@@ -1010,14 +1032,14 @@ body {
   }
 
   .gallery_images_card {
-    height: 300px;
-    min-width: 200px;
+    height: 250px;
+    min-width: 150px;
   }
   /* Gallery Ends */
 
   /* .Find us */
   .findus_image img {
-    width: 300px;
+    width: 200px;
   }
   /* .Find us */
 
