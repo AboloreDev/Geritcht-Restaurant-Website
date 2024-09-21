@@ -30,7 +30,7 @@ const SpecialMenu = () => {
 
           {/* Image */}
           <div className="specialmenu-img">
-            <img src={images.menu} alt="Menu Img" />
+            <img src={images.menu} alt="Menu Img" loading="lazy" />
           </div>
 
           <div className="cocktails">

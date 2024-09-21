@@ -31,7 +31,7 @@ const FindUs = () => {
           <Button>Visit Us</Button>
         </div>
         <div className="findus_image">
-          <img src={images.findus} alt="find-us-image" />
+          <img src={images.findus} alt="find-us-image" loading="lazy" />
         </div>
       </div>
     </section>

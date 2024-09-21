@@ -24,7 +24,7 @@ const Awards = () => {
           </div>
         </div>
         <div className="awards_img">
-          <img src={images.laurels} alt="Laurels" />
+          <img src={images.laurels} alt="Laurels" loading="lazy" />
         </div>
       </div>
     </section>

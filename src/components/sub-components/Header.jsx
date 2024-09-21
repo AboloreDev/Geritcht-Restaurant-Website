@@ -18,7 +18,7 @@ const Header = () => {
           <Button>Explore Menu</Button>
         </div>
         <div className="header_img">
-          <img src={images.welcome} alt="welcome" />
+          <img src={images.welcome} alt="welcome" loading="lazy" />
         </div>
       </div>
     </header>

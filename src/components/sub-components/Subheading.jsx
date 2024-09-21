@@ -7,7 +7,12 @@ const Subheading = ({ children, fontSize = "20px" }) => {
       <p className="cormorant" style={{ fontSize }}>
         {children}
       </p>
-      <img src={images.spoon} alt="spoon" className="spoon_img" />
+      <img
+        src={images.spoon}
+        alt="spoon"
+        className="spoon_img"
+        loading="lazy"
+      />
     </div>
   );
 };

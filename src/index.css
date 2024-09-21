@@ -717,12 +717,6 @@ body {
   padding: 0 2rem;
 }
 
-.footer_contact,
-.footer_logo,
-.footer_work {
-  /* flex: 1; */
-}
-
 .footer_logo img:first-child {
   width: 210px;
   margin-bottom: 0.7rem;

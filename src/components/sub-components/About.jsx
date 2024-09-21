@@ -9,7 +9,7 @@ const About = () => {
       <div className="about_container">
         {/* About Background Letter G */}
         <div className="about_overlay">
-          <img src={images.G} alt="G" />
+          <img src={images.G} alt="G" loading="lazy" />
         </div>
         {/* About Us Content */}
         <div className="about_content">
@@ -25,7 +25,7 @@ const About = () => {
           </div>
           {/* Middle Knife img */}
           <div className="about_knife">
-            <img src={images.knife} alt="About Knife" />
+            <img src={images.knife} alt="About Knife" loading="lazy" />
           </div>
           {/* Right side */}
           <div className="our_history">

@@ -21,6 +21,7 @@ const VideoIntro = () => {
         controls={false}
         muted
         ref={vidRef}
+        loading="lazy"
       />
       <div className="video_overlay">
         <div className="circle_video_overlay" onClick={handleVideo}>

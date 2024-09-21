@@ -7,7 +7,7 @@ const Chef = () => {
     <section className="app_chef app_bg">
       <div className="chef_container">
         <div className="chef_image_container">
-          <img src={images.chef} alt="chef" />
+          <img src={images.chef} alt="chef" loading="lazy" />
         </div>
 
         <div className="chef_info">
@@ -36,7 +36,7 @@ const Chef = () => {
               Kevin Luo
             </p>
             <p className="nunito">Chef & Founder</p>
-            <img src={images.sign} alt="sign" />
+            <img src={images.sign} alt="sign" loading="lazy" />
           </div>
         </div>
       </div>
